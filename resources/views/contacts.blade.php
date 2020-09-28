@@ -36,7 +36,7 @@
                                 <div class="col-md-12">
                                     <div class="row">
                                         <div class="form-group">
-                                            <input class="form-control" id="name" name="name" placeholder="Name" type="text">
+                                            <input class="form-control" id="name" name="name" placeholder="{{ __('default.NAME') }}" type="text">
                                             <span class="alert-error"></span>
                                         </div>
                                     </div>
@@ -44,13 +44,13 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
+                                            <input class="form-control" id="email" name="email" placeholder="{{ __('default.EMAIL') }}" type="email">
                                             <span class="alert-error"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
+                                            <input class="form-control" id="phone" name="" placeholder="{{ __('default.PHONE') }}" type="text">
                                             <span class="alert-error"></span>
                                         </div>
                                     </div>
@@ -58,7 +58,7 @@
                                 <div class="col-md-12">
                                     <div class="row">
                                         <div class="form-group comments">
-                                            <textarea class="form-control" id="message" name="message" placeholder="Message"></textarea>
+                                            <textarea class="form-control" id="message" name="message" placeholder="{{ __('default.MESSAGE') }}"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -81,20 +81,20 @@
                     <div class="col-md-6 col-md-offset-1 info">
                         <h2>{{ __('default.get_in_touch') }}</h2>
                         <p>
-                            Often merit stuff first oh up hills as he. Servants contempt as although addition dashwood is procured. Interest in yourself an do of numerous feelings cheerful confined. 
+                           {{ __('default.CONTACT_MESSAGE') }}
                         </p>
                         <br>
                         <div class="address">
                             <ul>
                                 <li>
-                                    <span>Address</span>
+                                    <span>{{ __('default.ADDRESS') }}</span>
                                     <p>
                                          <a href="">Switch Foodstuff Trading Co. LLC Sharjah, UAE P.O. Box 25743 </a>
                                     </p>
                                 </li>
                                 <br>
                                 <li>
-                                    <span>Phone</span>
+                                    <span>{{ __('default.PHONE') }}</span>
                                     <p>
                                         <a href="tel:+971 54 3055102">+971 54 3055102</a>
                                     </p>

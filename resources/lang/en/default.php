@@ -20,6 +20,11 @@
         'WHITEMEAT_TUNA' => 'WHITE MEAT TUNA',
         'ALL' => 'ALL',
         'MINI_REQAQ' => 'MINI REQAQ',
-
+        'CONTACT_MESSAGE' => "We are here to answer any question you may have about our products & product experiece. React out to us and we'll respond as soon as we can.",
+        'PHONE' => 'Phone',
+        'ADDRESS' => 'Address',
+        'NAME' => 'Name',
+        'EMAIL' => 'Email',
+        'MESSAGE' => 'Message',
     ];
 ?>

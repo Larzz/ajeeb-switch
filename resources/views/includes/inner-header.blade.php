@@ -27,7 +27,7 @@
             <div class="attr-nav">
                 <ul>
                     {{-- <li class="search"><a href="#"><i class="fa fa-search"></i></a></li> --}}
-                    <li>
+                    <li style="margin-top: 9px;">
                         @if (App::isLocale('ar'))
                             <a href="{{ route('home.switcher', ['language' => 'en' ]) }}"> {{ __('default.arabic')}}</a>
                         @else
